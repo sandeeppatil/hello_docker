@@ -27,12 +27,12 @@ hello_docker
 
 2. **Build the Docker image**:
    ```
-   docker build -t your-dockerhub-username/hello_docker .
+   docker build -t patilcomplex/hello_docker .
    ```
 
 3. **Run the Docker container**:
    ```
-   docker run -p 8501:8501 your-dockerhub-username/hello_docker
+   docker run -p 8501:8501 patilcomplex/hello_docker
    ```
 
 4. **Access the app**:
@@ -47,10 +47,10 @@ hello_docker
 
 2. **Push the image to Docker Hub**:
    ```
-   docker push your-dockerhub-username/hello_docker
+   docker push patilcomplex/hello_docker
    ```
 
-Replace `your-dockerhub-username` with your actual Docker Hub username.
+Replace `patilcomplex` with your actual Docker Hub username if different.
 
 ## License
 

@@ -1,11 +1,11 @@
-# Streamlit Hello World App
+# DeutschGramWelt
 
-This project is a simple Streamlit application that displays "Hello, World!" in a web browser. It is packaged in a Docker container for easy deployment.
+This project is a Streamlit application for German word grammatical analysis using Gemini LLM, packaged in a Docker container for easy deployment.
 
 ## Project Structure
 
 ```
-hello_docker
+DeutschGramWelt
 ├── app.py
 ├── Dockerfile
 ├── requirements.txt
@@ -22,21 +22,21 @@ hello_docker
 1. **Clone the repository** (if applicable):
    ```
    git clone <repository-url>
-   cd hello_docker
+   cd DeutschGramWelt
    ```
 
 2. **Build the Docker image**:
    ```
-   docker build -t your-dockerhub-username/hello_docker .
+   docker build -t patilcomplex/deutschgramwelt .
    ```
 
 3. **Run the Docker container**:
    ```
-   docker run -p 8501:8501 your-dockerhub-username/hello_docker
+   docker run -p 8502:8502 patilcomplex/deutschgramwelt
    ```
 
 4. **Access the app**:
-   Open your web browser and go to `http://localhost:8501`.
+   Open your web browser and go to `http://localhost:8502`.
 
 ## Pushing to Docker Hub
 
@@ -47,10 +47,10 @@ hello_docker
 
 2. **Push the image to Docker Hub**:
    ```
-   docker push your-dockerhub-username/hello_docker
+   docker push patilcomplex/deutschgramwelt
    ```
 
-Replace `your-dockerhub-username` with your actual Docker Hub username.
+Replace `patilcomplex` with your actual Docker Hub username if different.
 
 ## License
 
